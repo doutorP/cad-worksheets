@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        
+
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand">Home Sweet Home</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -26,7 +26,7 @@
             </div>
         </nav>
     </header>
-    
+
 
     <div class="container-fluid" style="margin-top: 20px;">
         <div class="row">
@@ -37,28 +37,29 @@
                     </div>
                     <div class="card-body">
                         <div class="d-flex justify-content-between">
-                            <span><i class="fas fa-thermometer-half text-success" ></i> <strong>Temperature</strong></span>
-                            <span>21.6 &deg;C</span>
+                            <span><i class="fas fa-thermometer-half text-success"></i>
+                                <strong>Temperature</strong></span>
+                            <span id="KitchenTemp">21.6 &deg;C</span>
                         </div>
-                        <div>5 minutes ago</div>
+                        <div id="KitchenTempTimer">5 minutes ago</div>
 
                         <div class="d-flex justify-content-between">
                             <span><i class="fa-regular fa-lightbulb"></i> <strong>Lights</strong></span>
-                            <span class="text-danger">Off</span>
+                            <span><i id="KitchenLightBtn" class="fas fa-toggle-off"></i></span>
                         </div>
-                        <div>10 minutes ago</div>
+                        <div id="KitchenLighTimer">10 minutes ago</div>
 
                         <div class="d-flex justify-content-between">
                             <span><i class="fas fa-eye"></i> <strong>West Window</strong></span>
                             <span class="text-success">Open</span>
                         </div>
-                        <div>15 minutes ago</div>
+                        <div id="KitchenWWindowTimer">15 minutes ago</div>
 
                         <div class="d-flex justify-content-between">
                             <span><i class="fas fa-eye"></i> <strong>North Window</strong></span>
                             <span class="text-success">Open</span>
                         </div>
-                        <div>15 minutes ago</div>
+                        <div id="KitchenNWindowTimer">15 minutes ago</div>
                     </div>
                 </div>
             </div>
@@ -70,28 +71,29 @@
                     </div>
                     <div class="card-body">
                         <div class="d-flex justify-content-between">
-                            <span><i class="fas fa-thermometer-half text-danger"></i> <strong>Temperature</strong></span>
-                            <span>22.6 &deg;C</span>
+                            <span><i class="fas fa-thermometer-half text-danger"></i>
+                                <strong>Temperature</strong></span>
+                            <span id="LivingTemp">22.6 &deg;C</span>
                         </div>
-                        <div>5 minutes ago</div>
-                    
+                        <div id="LivingTempTimer">5 minutes ago</div>
+
                         <div class="d-flex justify-content-between">
-                            <span><i class="fa-regular fa-lightbulb"></i> <strong>Ceiling Lights</strong></span>
-                            <span class="text-danger">Off</span>
+                            <span><i id="LivingCLight" class="fa-regular fa-lightbulb"></i> <strong>Ceiling Lights</strong></span>
+                            <span><i id="LivingCLightBtn" class="fas fa-toggle-off"></i></span>
                         </div>
-                        <div>5 minutes ago</div>
-                    
+                        <div id="LivingCLightTimer">5 minutes ago</div>
+
                         <div class="d-flex justify-content-between">
-                            <span><i class="fa-regular fa-lightbulb text-warning"></i> <strong>Ambient Lights</strong></span>
-                            <span class="text-success">On</span>
+                            <span><i id="LivingALight" class="fa-regular fa-lightbulb text-warning"></i> <strong>Ambient Lights</strong></span>
+                            <span><i id="LivingALightBtn" class="fas fa-toggle-on"></i></span>
                         </div>
-                        <div>7 minutes ago</div>
-                    
+                        <div id="LivingALightTimer">7 minutes ago</div>
+
                         <div class="d-flex justify-content-between">
                             <span><i class="fas fa-music text-primary"></i> <strong>Ambient Music</strong></span>
-                            <span class="text-success">On</span>
+                            <span><i id="LivingMusicBtn" class="fas fa-toggle-on"></i></span>
                         </div>
-                        <div>17 minutes ago</div>
+                        <div id="LivingMusicTimer">17 minutes ago</div>
                     </div>
                 </div>
             </div>
@@ -105,16 +107,17 @@
                     <div class="card-body">
                         <div class="d-flex justify-content-between">
                             <span><i class="fa-regular fa-clock text-primary"></i> <strong>Time</strong></span>
-                            <span>22:30</span>
+                            <span id="ClockTime">22:30</span>
                         </div>
-                    
+
                         <div class="d-flex justify-content-between">
                             <span><i class="fas fa-calendar-alt"></i> <strong>Date</strong></span>
-                            <span>2018-09-18</span>
+                            <span id="ClockDate">2018-09-18</span>
                         </div>
-                    
+
                         <div class="d-flex justify-content-between">
-                            <span><i class="fas fa-sun text-warning"></i> <strong>Sunrise / Sunset above horizon</strong></span>
+                            <span><i class="fas fa-sun text-warning"></i> <strong>Sunrise / Sunset above
+                                    horizon</strong></span>
                         </div>
                     </div>
                 </div>
