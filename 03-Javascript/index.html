@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+
+<body>
+    <header>
+        
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand">Home Sweet Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active" href="./index.html">Dashboard <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="./history.html">History</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+
+    <div class="container-fluid" style="margin-top: 20px;">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card text-black" style="border-radius: 30px;">
+                    <div class="card-header text-center">
+                        <h3>Kitchen</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <span><i class="fas fa-thermometer-half text-success" ></i> <strong>Temperature</strong></span>
+                            <span>21.6 &deg;C</span>
+                        </div>
+                        <div>5 minutes ago</div>
+
+                        <div class="d-flex justify-content-between">
+                            <span><i class="fa-regular fa-lightbulb"></i> <strong>Lights</strong></span>
+                            <span class="text-danger">Off</span>
+                        </div>
+                        <div>10 minutes ago</div>
+
+                        <div class="d-flex justify-content-between">
+                            <span><i class="fas fa-eye"></i> <strong>West Window</strong></span>
+                            <span class="text-success">Open</span>
+                        </div>
+                        <div>15 minutes ago</div>
+
+                        <div class="d-flex justify-content-between">
+                            <span><i class="fas fa-eye"></i> <strong>North Window</strong></span>
+                            <span class="text-success">Open</span>
+                        </div>
+                        <div>15 minutes ago</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card text-black" style="border-radius: 30px;">
+                    <div class="card-header text-center">
+                        <h3>Living Room</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <span><i class="fas fa-thermometer-half text-danger"></i> <strong>Temperature</strong></span>
+                            <span>22.6 &deg;C</span>
+                        </div>
+                        <div>5 minutes ago</div>
+                    
+                        <div class="d-flex justify-content-between">
+                            <span><i class="fa-regular fa-lightbulb"></i> <strong>Ceiling Lights</strong></span>
+                            <span class="text-danger">Off</span>
+                        </div>
+                        <div>5 minutes ago</div>
+                    
+                        <div class="d-flex justify-content-between">
+                            <span><i class="fa-regular fa-lightbulb text-warning"></i> <strong>Ambient Lights</strong></span>
+                            <span class="text-success">On</span>
+                        </div>
+                        <div>7 minutes ago</div>
+                    
+                        <div class="d-flex justify-content-between">
+                            <span><i class="fas fa-music text-primary"></i> <strong>Ambient Music</strong></span>
+                            <span class="text-success">On</span>
+                        </div>
+                        <div>17 minutes ago</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card text-black" style="border-radius: 30px;">
+                    <div class="card-header text-center">
+                        <h3>Clock</h3>
+                    </div>
+
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <span><i class="fa-regular fa-clock text-primary"></i> <strong>Time</strong></span>
+                            <span>22:30</span>
+                        </div>
+                    
+                        <div class="d-flex justify-content-between">
+                            <span><i class="fas fa-calendar-alt"></i> <strong>Date</strong></span>
+                            <span>2018-09-18</span>
+                        </div>
+                    
+                        <div class="d-flex justify-content-between">
+                            <span><i class="fas fa-sun text-warning"></i> <strong>Sunrise / Sunset above horizon</strong></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+
+</HTML>
